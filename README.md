@@ -26,16 +26,19 @@ A Streamlit web app that predicts whether an individual is likely to be a donor 
 
 ---
 
-## 💻 Installation & Usage
+## 💻 Installation, Usage & Project Structure
 
-1. **Clone the repository:**
-```bash
+```text
+1. Clone the repository:
    git clone [https://github.com/MohamedEslam111/Project_NTI.git](https://github.com/MohamedEslam111/Project_NTI.git)
    cd Project_NTI
-1. Run the App:
-streamlit run app.py
 
-📂 Project Structure
+2. Run the App:
+   streamlit run app.py
+
+
+📂 Project Structure:
+
 project_nti/
 │
 └── project nti 1/
@@ -50,6 +53,3 @@ project_nti/
     ├── xgb_model.pkl               # Trained XGBoost model weights
     ├── scaler.pkl                  # Saved StandardScaler instance
     └── feature_columns.pkl         # Saved list of expected feature names
-
-✉️ Contact
-Mohamed Eslam Metwally Awaad
